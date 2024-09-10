@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+
+.orange{
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+.main-area{
+    text-align: center;
+    padding: 10px;
+}
+
+.rating-section{
+    text-align: center;
+  
+}
+
+.rate-star{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+} 
+
+.stars{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.star:first-child{
+    padding: 0;
+}
